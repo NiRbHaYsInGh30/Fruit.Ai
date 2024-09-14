@@ -1,0 +1,185 @@
+/* Home.css */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+}
+
+a{
+    text-decoration: none
+}
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.app-container h3 {
+    text-decoration: none;
+}
+
+.grid-item a {
+    text-decoration: none !important;
+    /* Removes underline for the Link component */
+    color: inherit;
+    /* Ensures color is inherited */
+}
+
+
+.header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+
+
+.header h1 {
+    font-size: 3rem;
+    color: #333;
+    margin: 0;
+}
+
+.header p {
+    font-size: 1.5rem;
+    color: #555;
+    margin-top: 0.5rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    width: 100%;
+    max-width: 1200px;
+    text-decoration: none;
+}
+
+.grid-item {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.grid-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+}
+
+
+.grid-item a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2rem;
+}
+
+.grid-item.chat {
+    background: #dbe9ff;
+}
+
+.grid-item.translate {
+    background: #e0ffe0;
+}
+
+.grid-item.faqs {
+    background: #fff3e0;
+}
+
+.grid-item.about {
+    background: #f8d7da;
+}
+
+.grid-item.chat:hover {
+    background: #c3d7ff;
+}
+
+.grid-item.translate:hover {
+    background: #c0f0c0;
+}
+
+.grid-item.faqs:hover {
+    background: #fbd5c6;
+}
+
+.grid-item.about:hover {
+    background: #f5b6b1;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .header h1 {
+        font-size: 2.5rem;
+    }
+
+    .header p {
+        font-size: 1.2rem;
+    }
+
+    .grid-item {
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .header h1 {
+        font-size: 2.2rem;
+    }
+
+    .header p {
+        font-size: 1rem;
+    }
+
+    .grid-container {
+        gap: 0.8rem;
+    }
+
+    .grid-item {
+        padding: 1.2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 2rem;
+    }
+
+    .header p {
+        font-size: 0.9rem;
+    }
+
+    .grid-container {
+        gap: 0.6rem;
+    }
+
+    .grid-item {
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .header h1 {
+        font-size: 1.8rem;
+    }
+
+    .header p {
+        font-size: 0.8rem;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+    }
+
+    .grid-item {
+        padding: 0.8rem;
+    }
+}
