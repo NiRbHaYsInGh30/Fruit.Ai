@@ -55,6 +55,8 @@ const Faq = () => {
             ? { ...newFAQ, id: isEditing, userId: loggedInUserId }
             : faq
         )
+        // Nirbhay singh
+        // Author Nirbhay Singh
       );
       setIsEditing(null);
       setNewFAQ({ question: "", answer: "", image: "" });
@@ -140,3 +142,5 @@ const Faq = () => {
 };
 
 export default Faq;
+// Nirbhay singh
+// Author Nirbhay Singh

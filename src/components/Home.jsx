@@ -1,3 +1,5 @@
+// Nirbhay singh
+// Author Nirbhay Singh
 import "../Styles/Home.css";
 const Home = () => {
   return (
@@ -15,7 +17,10 @@ const Home = () => {
           </div>
         </a>
 
-        <a href="https://translate.google.co.in/?sl=auto&tl=en&op=translate" target="blank">
+        <a
+          href="https://translate.google.co.in/?sl=auto&tl=en&op=translate"
+          target="blank"
+        >
           <div className="grid-item translate">
             <h3>Google Translate</h3>
           </div>
@@ -36,4 +41,4 @@ const Home = () => {
     </div>
   );
 };
-export  default Home;
+export default Home;

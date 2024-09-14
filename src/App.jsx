@@ -9,7 +9,8 @@ import Faq from "./components/Faq";
 import Translator from "./components/Translator";
 
 
-
+// Nirbhay singh
+// Author Nirbhay Singh
 
 function App() {
   const router = createBrowserRouter([

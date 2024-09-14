@@ -1,3 +1,5 @@
+// Nirbhay singh
+// Author Nirbhay Singh
 import { useNavigate } from "react-router-dom";
 import {
   SignedIn,
@@ -6,7 +8,7 @@ import {
   UserButton,
 } from "@clerk/clerk-react";
 
- const Login = () => {
+const Login = () => {
   const navigate = useNavigate();
 
   return (

@@ -2,7 +2,8 @@ import { SignInButton, useUser } from "@clerk/clerk-react";
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import "../Styles/Landing.css";
-
+// Nirbhay singh
+// Author Nirbhay Singh
 const Landing = () => {
   const { isSignedIn } = useUser();
   const navigate = useNavigate();

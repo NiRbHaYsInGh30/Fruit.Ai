@@ -20,3 +20,5 @@ const About = () => {
 };
 
 export default About;
+// Nirbhay singh
+// Author Nirbhay Singh
