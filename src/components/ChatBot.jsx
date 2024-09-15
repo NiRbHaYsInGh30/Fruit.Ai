@@ -1,11 +1,12 @@
-import Welcome from "../chat/Welcome";
+// import Welcome from "../chat/Welcome";
 
  const ChatBot = () => {
   return (
     <div>
-      <a href="">
+      Working or not
+      {/* <a href="">
         <Welcome/>
-      </a>
+      </a> */}
     </div>
   )
 }
