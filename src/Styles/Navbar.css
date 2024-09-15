@@ -94,3 +94,198 @@
         /* Further reduce height for very small screens */
     }
 }
+
+.logo-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    /* Removes default underline from links */
+    padding: 0;
+    /* Removes padding around the logo */
+}
+
+.logo {
+    width: 100px;
+    /* Width of the watermelon */
+    height: 60px;
+    /* Height of the watermelon */
+    position: relative;
+    /* Necessary for positioning inner elements */
+    background-color: #ff6f6f;
+    /* Outer watermelon color */
+    border-radius: 50% 50% 0 0;
+    /* Makes the top part of the watermelon round */
+    overflow: hidden;
+    /* Ensures no overflow of inner elements */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Optional: Adds a shadow for a 3D effect */
+}
+
+.logo::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    /* Adjust the "rind" width */
+    background-color: #4caf50;
+    /* Green color for the rind */
+    border-radius: 0 0 50% 50%;
+    /* Rounds the bottom edges */
+}
+
+.logo::after {
+    content: "";
+    position: absolute;
+    top: 15%;
+    /* Adjust position for seeds */
+    left: 10%;
+    width: 80%;
+    height: 70%;
+    border-radius: 50%;
+    /* Rounds the edges for the inner watermelon */
+    background-color: #f44336;
+    /* Red color for the inner watermelon */
+}
+
+.seeds {
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    width: 60%;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.seed {
+    width: 15px;
+    height: 15px;
+    background-color: #000;
+    /* Black color for the seeds */
+    border-radius: 50%;
+    /* Rounds the seeds */
+    margin: 0 5px;
+    /* Adds spacing between seeds */
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    .logo {
+        width: 80px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 400px) {
+    .logo {
+        width: 60px;
+        height: 40px;
+    }
+}
+
+.logo-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    /* Removes default underline from links */
+    padding: 0;
+    /* Removes padding around the logo */
+}
+
+.logo {
+    width: 60px;
+    /* Width of the smaller watermelon */
+    height: 35px;
+    /* Height of the smaller watermelon */
+    position: relative;
+    /* Necessary for positioning inner elements */
+    background-color: #ff6f6f;
+    /* Outer watermelon color */
+    border-radius: 50% 50% 0 0;
+    /* Makes the top part of the watermelon round */
+    overflow: hidden;
+    /* Ensures no overflow of inner elements */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    /* Optional: Adds a shadow for a 3D effect */
+}
+
+.logo::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    /* Adjust the "rind" width for the smaller size */
+    background-color: #4caf50;
+    /* Green color for the rind */
+    border-radius: 0 0 50% 50%;
+    /* Rounds the bottom edges */
+}
+
+.logo::after {
+    content: "";
+    position: absolute;
+    top: 15%;
+    /* Adjust position for seeds */
+    left: 10%;
+    width: 80%;
+    height: 70%;
+    border-radius: 50%;
+    /* Rounds the edges for the inner watermelon */
+    background-color: #f44336;
+    /* Red color for the inner watermelon */
+}
+
+.seeds {
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    width: 70%;
+    height: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.seed {
+    width: 10px;
+    /* Smaller seeds */
+    height: 10px;
+    background-color: #000;
+    /* Black color for the seeds */
+    border-radius: 50%;
+    /* Rounds the seeds */
+    margin: 2px;
+    /* Adjust spacing between seeds */
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    .logo {
+        width: 50px;
+        height: 30px;
+    }
+
+    .seed {
+        width: 8px;
+        height: 8px;
+    }
+}
+
+@media (max-width: 400px) {
+    .logo {
+        width: 40px;
+        height: 25px;
+    }
+
+    .seed {
+        width: 6px;
+        height: 6px;
+    }
+}
