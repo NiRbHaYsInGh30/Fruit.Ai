@@ -13,8 +13,13 @@ const Navbar = () => {
     <nav className="navbar">
       <a href="/" className="logo-link">
         <div className="logo">
-          <img src={"/public/watermelon.png"}/>
-
+          <div className="seeds">
+            <div className="seed"></div>
+            <div className="seed"></div>
+            <div className="seed"></div>
+            <div className="seed"></div>
+            <div className="seed"></div>
+          </div>
         </div>
       </a>
       <div className="nav-links">
