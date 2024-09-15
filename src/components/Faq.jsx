@@ -7,7 +7,7 @@ const initialFAQs = [
     question: "How is Tangerine healthy?",
     answer:
       "Tangerines are a great health booster due to their high vitamin C content, which supports the immune system and skin health.",
-    image: "https://example.com/tangerine.jpg", // Placeholder image link
+    image: "/public/images.jpeg", // Placeholder image link
     userId: 1, // Simulate the ID of the user who created this FAQ
   },
   {
@@ -15,8 +15,16 @@ const initialFAQs = [
     question: "What are the benefits of apples?",
     answer:
       "Apples are rich in fiber and vitamins, promoting heart health and improving digestion.",
-    image: "https://example.com/apple.jpg", // Placeholder image link
+    image: "/public/images.jpeg", // Placeholder image link
     userId: 2, // Simulate the ID of another user
+  },
+  {
+    id: 3,
+    question: "What are the benefits of Carrots?",
+    answer:
+      "Carrots are good for skins.",
+    image: "/public/images.jpeg", // Placeholder image link
+    userId: 3, // Simulate the ID of another user
   },
 ];
 

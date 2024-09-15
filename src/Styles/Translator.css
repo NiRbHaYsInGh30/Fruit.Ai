@@ -1,12 +1,12 @@
 /* Translator.css */
 
 body,
-html {
+x html {
     margin: 0;
     padding: 0;
     height: 100%;
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #f0f2f5;
 }
 
 /* Center the phone div */
@@ -20,7 +20,7 @@ html {
 
 /* Phone Shape */
 .phone-frame {
-    background-color: white;
+    background-color: #f0f2f5;
     width: 350px;
     height: 700px;
     border-radius: 40px;
