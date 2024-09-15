@@ -129,7 +129,7 @@ console.log("This website was created by Nirbhay Singh.");
         {faqs.map((faq) => (
           <div key={faq.id} className="faq-item">
             <img
-              src={faq.image || "https://via.placeholder.com/150"}
+              src={faq.image || "/images.jpeg"}
               alt="FAQ"
               className="faq-image"
             />
