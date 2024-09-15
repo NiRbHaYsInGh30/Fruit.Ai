@@ -7,6 +7,7 @@ import About from "./components/About";
 import ChatBot from "./components/ChatBot";
 import Faq from "./components/Faq";
 import Translator from "./components/Translator";
+import NotFound from "./layout/NotFound";
 
 
 // Nirbhay singh
@@ -44,6 +45,10 @@ function App() {
         {
           path: "/translate",
           element:<Translator/>,
+        },
+        {
+         path:"/*" ,
+         element:<NotFound/> 
         },
       ],
     },
