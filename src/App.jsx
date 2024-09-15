@@ -38,7 +38,7 @@ function App() {
           element:<ChatBot/> ,
         },
         {
-          path: "/faq",
+          path: "/faqs",
           element:<Faq/>,
         },
         {

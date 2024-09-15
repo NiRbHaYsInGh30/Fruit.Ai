@@ -26,7 +26,7 @@ const Home = () => {
           </div>
         </a>
 
-        <a href="/faq">
+        <a href="/faqs">
           <div className="grid-item faqs">
             <h3>FAQs</h3>
           </div>
