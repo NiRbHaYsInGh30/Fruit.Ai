@@ -45,7 +45,7 @@ const Chat = () => {
     <div className="chat-container-wrapper">
       <div className="chatbot-container">
         <div className="chat-header">
-          <h2>Chat with Us</h2>
+          <h2>Chat</h2>
         </div>
 
         {/* Chat body to display chat messages */}
