@@ -1,74 +1,95 @@
-/* About.css */
-
-body {
-    margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
+/* General Styles */
 .about-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    background: linear-gradient(to bottom, #f0f0f0, #ffffff);
-    /* Soft gradient background */
+    height: 100vh;
+    background: linear-gradient(135deg, #f8f9fa, #e2e2e2);
+    /* Light gradient background */
     padding: 20px;
+    box-sizing: border-box;
 }
 
 .about-content {
-    max-width: 700px;
+    max-width: 800px;
     width: 100%;
-    text-align: center;
     background: #ffffff;
-    border-radius: 12px;
+    /* White background for the content */
+    border-radius: 15px;
+    /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Subtle shadow */
     padding: 30px;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-    border: 1px solid #ddd;
-    /* Light border for definition */
+    text-align: center;
+    animation: fadeIn 1s ease-out;
+    /* Fade-in animation */
 }
 
 .about-content h1 {
     font-size: 2.5rem;
-    /* Larger heading */
+    /* Large title font size */
     color: #333;
+    /* Dark text color */
     margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    /* Stylish font */
 }
 
 .about-content p {
     font-size: 1.125rem;
-    /* Slightly larger font size */
-    line-height: 1.6;
+    /* Slightly larger text for readability */
     color: #555;
+    /* Slightly lighter text color */
+    line-height: 1.6;
+    /* Improved line spacing */
+    margin-bottom: 0;
+    font-family: 'Arial', sans-serif;
+    /* Clean font */
 }
 
+/* Mobile Styles */
 @media (max-width: 768px) {
+    .about-container {
+        background: rgba(0, 0, 0, 0.5);
+        /* Semi-transparent background */
+    }
+
     .about-content {
+        position: relative;
+        margin: 0 auto;
+        width: 90%;
+        max-width: 400px;
+        height: auto;
         padding: 20px;
-    }
-
-    .about-content h1 {
-        font-size: 2rem;
-        /* Responsive font size */
-    }
-
-    .about-content p {
-        font-size: 1rem;
-        /* Responsive font size */
+        box-shadow: none;
+        /* Remove shadow on mobile */
+        border-radius: 10px;
+        /* Smaller rounded corners */
+        animation: slideUp 0.5s ease-out;
+        /* Slide-up animation for mobile */
+        background: #ffffff;
     }
 }
 
-@media (max-width: 480px) {
-    .about-content {
-        padding: 15px;
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
     }
 
-    .about-content h1 {
-        font-size: 1.75rem;
-        /* Further reduced font size for very small screens */
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
     }
 
-    .about-content p {
-        font-size: 0.875rem;
-        /* Further reduced font size */
+    to {
+        transform: translateY(0);
+        opacity: 1;
     }
 }
