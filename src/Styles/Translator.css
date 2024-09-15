@@ -99,11 +99,12 @@ html {
     .phone-frame {
         width: 90%;
         height: auto;
-        padding: 1.5rem;
+        padding: 3.5rem;
     }
 
     h1 {
         font-size: 1.5rem;
+        padding: 19px;
     }
 
     .translate-button,

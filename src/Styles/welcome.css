@@ -1,0 +1,49 @@
+/* Welcome.css */
+.welcome-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: white;
+}
+
+.logo-box {
+    background-color: #f4f4f4;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: bold;
+    color: #6c63ff;
+    /* Adjust the color based on your design */
+}
+
+.welcome-message {
+    text-align: center;
+}
+
+.hello-text {
+    font-size: 24px;
+    font-weight: 400;
+    color: #333;
+}
+
+.chat-text {
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: -10px;
+    color: #6c63ff;
+}
+
+.description-text {
+    margin-top: 10px;
+    color: #888;
+}
