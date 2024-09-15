@@ -43,3 +43,54 @@
 .signup:hover {
     background-color: #146fa3;
 }
+
+.logo-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    /* Removes default underline from links */
+    padding: 0;
+    /* Removes padding around the logo */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    /* Adjust width of the logo container */
+    height: 60px;
+    /* Adjust height of the logo container */
+    overflow: hidden;
+    /* Ensures no overflow if image is too large */
+}
+
+.logo img {
+    width: 100%;
+    /* Makes the image fill the container */
+    height: 100%;
+    /* Ensures the image fills the container height */
+    object-fit: cover;
+    /* Ensures the image covers the container without distortion */
+    display: block;
+    /* Removes any extra space below the image */
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    .logo {
+        width: 50px;
+        /* Smaller width for mobile */
+        height: 50px;
+        /* Smaller height for mobile */
+    }
+}
+
+@media (max-width: 400px) {
+    .logo {
+        width: 40px;
+        /* Further reduce width for very small screens */
+        height: 40px;
+        /* Further reduce height for very small screens */
+    }
+}

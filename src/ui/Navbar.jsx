@@ -12,7 +12,10 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <a href="/" className="logo-link">
-        <div className="logo">FruitAI</div>
+        <div className="logo">
+          <img src={"/public/watermelon.png"}/>
+
+        </div>
       </a>
       <div className="nav-links">
         {isSignedIn ? (
