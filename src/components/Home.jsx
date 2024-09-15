@@ -18,8 +18,8 @@ const Home = () => {
         </a>
 
         <a
-          href="https://translate.google.co.in/?sl=auto&tl=en&op=translate"
-          target="blank"
+          href="/translate"
+          
         >
           <div className="grid-item translate">
             <h3>Google Translate</h3>

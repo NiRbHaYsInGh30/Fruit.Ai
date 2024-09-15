@@ -1,0 +1,71 @@
+/* Chat container styling */
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+
+/* Chat header styling */
+.chat-header {
+    padding: 1rem;
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+}
+
+/* Chat body */
+.chat-body {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+/* Fruit list and cards */
+.fruit-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.fruit-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.fruit-card:hover {
+    transform: translateY(-5px);
+}
+
+.fruit-detail-card {
+    text-align: center;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #45a049;
+}

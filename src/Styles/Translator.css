@@ -1,0 +1,114 @@
+/* Translator.css */
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Center the phone div */
+.translator-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+/* Phone Shape */
+.phone-frame {
+    background-color: white;
+    width: 350px;
+    height: 700px;
+    border-radius: 40px;
+    padding: 2rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+/* The grey top speaker of the phone */
+.phone-frame::before {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 5px;
+    background-color: #ddd;
+    border-radius: 10px;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Translator input field */
+.translator-input {
+    padding: 0.75rem;
+    width: 100%;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+}
+
+/* Language selector dropdown */
+.language-select {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+}
+
+/* Translate button */
+.translate-button {
+    padding: 0.75rem;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1rem;
+}
+
+.translate-button:hover {
+    background-color: #45a049;
+}
+
+/* Result section */
+.translation-result {
+    margin-top: 1rem;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    text-align: center;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 600px) {
+    .phone-frame {
+        width: 90%;
+        height: auto;
+        padding: 1.5rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .translate-button,
+    .language-select,
+    .translator-input {
+        padding: 0.5rem;
+    }
+}
