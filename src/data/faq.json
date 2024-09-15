@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "question": "How is Tangerine healthy?",
+    "answer": "Tangerines are a great health booster due to their high vitamin C content, which supports the immune system and skin health.",
+    "image": "/public/images.jpeg",
+    "userId": 1
+  },
+  {
+    "id": 2,
+    "question": "What are the benefits of apples?",
+    "answer": "Apples are rich in fiber and vitamins, promoting heart health and improving digestion.",
+    "image": "/public/images.jpeg",
+    "userId": 2
+  },
+  {
+    "id": 3,
+    "question": "What are the benefits of Carrots?",
+    "answer": "Carrots are good for skin.",
+    "image": "/public/images.jpeg",
+    "userId": 3
+  }
+]
