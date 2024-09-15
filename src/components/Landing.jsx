@@ -14,9 +14,12 @@ const Landing = () => {
       navigate("/home");
     }
   }, [isSignedIn, navigate]);
+  console.log("This website was created by Nirbhay Singh.");
 
   return (
+    
     <div className="desktop-container">
+      
       <div className="content">
         <div className="icon">
           <i className="chat-icon">💬</i>
@@ -37,6 +40,7 @@ const Landing = () => {
             </SignInButton>
           )}
         </div>
+      
       </div>
 
       {/* Features Section */}

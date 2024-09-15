@@ -2,6 +2,7 @@
 // Author Nirbhay Singh
 import "../Styles/Home.css";
 const Home = () => {
+  console.log("This website was created by Nirbhay Singh.");
   return (
     <div className="app-container">
       <header className="header">

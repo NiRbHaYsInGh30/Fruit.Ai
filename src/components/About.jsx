@@ -3,6 +3,7 @@ import "../Styles/About.css";
 
 
 const About = () => {
+  console.log("This website was created by Nirbhay Singh.");
   return (
     <div className="about-container">
       <div className="about-content">

@@ -11,7 +11,7 @@ const Chat = () => {
   const handleInputChange = (e) => {
     setInput(e.target.value);
   };
-
+console.log("This website was created by Nirbhay Singh.");
   // Handles message sending logic
   const handleSendMessage = async () => {
     if (input.trim()) {

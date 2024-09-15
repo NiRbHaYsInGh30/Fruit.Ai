@@ -8,6 +8,7 @@ const Translator = () => {
   const [targetLanguage, setTargetLanguage] = useState("es"); // Default to Spanish ('es')
 
   // Function to handle translation
+  console.log("This website was created by Nirbhay Singh.");
   const translateText = async () => {
     const apiKey = "AIzaSyBrBqBEN9lp3PZJckRbsBEE4YpJMEzb3Ic";
     const url = `https://translation.googleapis.com/language/translate/v2?key=${apiKey}`;
