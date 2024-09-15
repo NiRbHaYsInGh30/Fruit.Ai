@@ -1,8 +1,33 @@
-# React + Vite
+# Fruti.AI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to Fruti.AI! This is a comprehensive project featuring a React-based landing page with various functionalities, including a chatbot, language translation, and a CRUD FAQ page.
 
-Currently, two official plugins are available:
+## Deployed Application
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+You can view the live application here: [Fruti.AI](https://fruit-ai-lovat.vercel.app/)
+
+## Demo Login Credentials
+
+- **Username**: user-user
+- **Password**: nirbhaysingh123
+
+## Features
+
+- **Landing Page**: A sleek and responsive landing page created with React and styled using CSS.
+- **Chat**: A chatbot functionality powered by the Gemini API, enabling conversational interactions.
+- **About Page**: Provides information about the application.
+- **FAQ**: A CRUD (Create, Read, Update, Delete) page to manage Frequently Asked Questions (FAQ).
+- **Translate**: Translates text into five different languages.
+
+## Installation
+
+To get started with the project locally, follow these steps:
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/your-username/fruti-ai.git
+   cd fruti-ai
+   cd frontend
+   npm install
+
