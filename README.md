@@ -8,7 +8,7 @@ You can view the live application here: [Fruti.AI](https://fruit-ai-lovat.vercel
 
 ## Demo Login Credentials
 
-- **Username**: user-user
+- **Username**: user
 - **Password**: nirbhaysingh123
 
 ## Features
