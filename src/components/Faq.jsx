@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import "../Styles/Faq.css";
 
-const API_URL = "https://backend-fruit-ai.onrender.com/faqs/";
+const API_URL = "https://fruitai-production.up.railway.app/faqs";
 
 const Faq = () => {
   const [faqs, setFaqs] = useState([]);
