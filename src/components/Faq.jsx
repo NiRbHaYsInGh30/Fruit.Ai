@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import "../Styles/Faq.css";
 
-const API_URL = "https://backend-fruit-ai.onrender.com/faqs/";
+const API_URL = "https://fruitai-production.up.railway.app/faqs";
 
 const Faq = () => {
   const [faqs, setFaqs] = useState([]);
@@ -60,7 +60,8 @@ const Faq = () => {
     e.preventDefault();
     if (newFAQ.question && newFAQ.answer && newFAQ.id) {
       axios
-        .put(`${API_URL}${newFAQ.id}`, newFAQ) // Removed extra `/`
+        .put(`${API_URL}/${newFAQ.id}`, newFAQ) // Add `/`
+
         .then((response) => {
           if (response.status === 200) {
             // Check for successful update
@@ -85,7 +86,7 @@ const Faq = () => {
   const handleDeleteFAQ = (id) => {
     console.log("Deleting FAQ ID:", id); // Debugging log
     axios
-      .delete(`${API_URL}${id}`) // Removed extra `/`
+      .delete(`${API_URL}/${id}`) // Add `/`
       .then((response) => {
         if (response.status === 200 || response.status === 204) {
           // Check for successful deletion
