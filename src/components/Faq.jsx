@@ -151,7 +151,7 @@ const Faq = () => {
             <img
               src={
                 faq.image ||
-                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLTbANrQs9rFaSL6c5qMPImjorrPgbrkfywg&s"
+                "/images.jpeg"
               }
               alt="FAQ"
               className="faq-image"
