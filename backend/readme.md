@@ -1,4 +1,5 @@
 # Backend Setup for Fruti.AI
+"https://backend-fruit-ai.onrender.com/faqs/";
 
 This guide will help you set up and run the backend server for the Fruti.AI project.
 
